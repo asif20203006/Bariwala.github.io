@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, tahoma;
+}
+body{
+    background-image: url(background/boutus.jpg);
+    overflow-x: hidden;
+    
+}
+.head-part {
+    backdrop-filter:blur(10px);
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0px 12px 50px 5px black;
+    border-top: none;
+    
+}
+.menubar li{
+    padding: 0px 45px;
+}
+.asif {
+    width: 6rem;
+height: 6rem;
+}
+.asif-ahmed{
+    font-family: algerian;
+}
+
+.asif-info {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 8px;
+
+}
+.robiul-info {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 8px;
+}
+.heading-part1 {
+    background:linear-gradient(60deg, #95a5a6, #34495e, #3498db, #2c3e50) ;
+    font-family: tahoma;
+    
+    
+ }

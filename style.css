@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image:url(pictures/backjpg.jpg);
+    overflow-x: hidden;
+    
+}
+.img-logo {
+    width: 85px;
+    position: absolute;
+    top:0px;
+    background-color:#e9ecef;
+    
+    height: 64px;
+    
+}
+.heading-part {
+    background-color:#e9ecef;
+    margin-left: 85px;
+    
+    
+}
+.home-head {
+/*     background: linear-gradient(to left, #CC99FF, #99CCFF); */
+background: linear-gradient(to right, #33CCFF, #99FF33);
+    border-radius: 50px;;
+}
+.menubar {
+    height: 48px;
+}
+.menubar li:hover {
+    background-color:#2980b9;
+}
+.menubar li {
+padding: 0px 45px;
+}
+.dropdown-menu {
+
+    box-shadow: 5px 5px 12px 0px grey;
+}
+.fa-home {
+    color: white;
+}
+.trendings {
+    font-family: algerian;
+}
+
+/* RIGHT-PART-CSS */
+.latest {
+    width: 
+    250px;
+    background-color: #34495e;
+    height: 50px;
+    margin:12px;
+    border-radius: 8px;
+}
+.news {
+    background-color:#1abc9c;
+    height: 100px;
+    width: 220px;
+    margin: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.right-part {
+    margin-top:87px;
+}
+.middle-part {
+    border:0px;
+}
+.dropdown-item:hover {
+color: brown;
+}
+
+/* RIGHT0SDIE- *//* HOVER-ITEMS */
+
+.news:hover {
+    background: linear-gradient(#1ab,grey);
+    
+}
+.news1:hover {
+    background: linear-gradient(#1ab,grey);}
+   
+    .news2:hover {
+        background: linear-gradient(#1ab,grey);}
+
+/* hOVER-ENDED */
+
+
+    .news1{
+    background-color: #3498db;
+    height: 100px;
+    width: 220px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+
+
+/* APARTMENT-OVERVIEW */
+.baridara{
+    font-size:10px;
+    padding:0;
+    
+}
+
+.apartment-overview p {
+    font-size: 11px;
+    margin:0;
+   
+}
+.apartment-overview  {
+width: 80pc;
+    
+}
+
+
+.ap-details  {
+    margin-left:5pc;
+}
+
+.shadow-ap {
+    box-shadow: 5px 5px 10px 2px grey;
+}
+/* APARTMENT-OVERVIEW */
+
+
+
+.news2{
+
+    background-color: #95a5a6;
+    height: 100px;
+    width: 220px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+
+/* Left-part-css */
+
+.left-part {
+    margin-top: 55px;
+}
+
+.apart {
+    font-size: 17px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: .4s;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+    width: 80px;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+
+ .fa-twitter {
+    background: #55ACEE;
+    color: white;
+ }
+ .fa-whatsapp {
+    background: #0ec007;
+    color: white; 
+ }
+
+/* FIltersection */
+
+.filter-section {
+ 
+    
+}
+
+
+/* USER-REVIEW */
+.user-review {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 0px 15px 1px grey;
+}
+.views {
+    display: flex;
+    border-radius: 10px;
+    
+
+}
+
+.reviews {
+    color: goldenrod;
+}
+.user-review img {
+    width: 4rem;
+   margin-left: 12pc;
+   height: 4rem;
+    
+    
+}
+.user-review h4 {
+ 
+}
+.user-review p {
+  
+}
+.john-wick-review {
+   
+}
+
+/* Footer */
+
+.rektan {
+    position: relative;
+    height: 30pc;
+}
+.srcfb {
+    width: 40px;
+    height:40px;
+    border-radius: 10px;
+    
+}
+.srcfb:hover {
+    opacity: 0.7;
+}
+
+.navu li a{
+    text-decoration: none;
+    color: white;
+}
+.navu li{
+  margin-left: 10px;
+  padding: 5px;
+  list-style: none;
+}
+.navu {
+    font-size: 15px;
+    
+    
+}
+.footer {
+    border-top: 1px solid white;
+    width: 50%;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    
+}
